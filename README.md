@@ -101,21 +101,22 @@ Widget utama untuk memulai aplikasi Flutter.
 
 <img width="450" height="266" alt="image" src="https://github.com/user-attachments/assets/aecd5f1f-7526-49c0-a871-65dc5635ca60" />
 
-Scaffold menyediakan kerangka halaman termasuk AppBar, body, dan tombol aksi. Mempermudah layout standar halaman Flutter
+Scaffold menyediakan kerangka halaman termasuk AppBar, body, dan tombol aksi. 
 
 ## 3. AppBar ##
 
 <img width="450" height="97" alt="image" src="https://github.com/user-attachments/assets/60135b44-d3ed-4c5a-952c-d4908f9fe739" />
 
-AppBar  bagian atas aplikasi yang menampilkan judul halaman dan warna background. Di Homepage pada aplikasi ini menampilkan kategori
+AppBar  bagian atas aplikasi yang menampilkan judul halaman dan warna background. Pada HomePage, AppBar menampilkan nama kategori obat yang dipilih (misalnya: Obat Bebas, Obat Keras).
 
 
 ## 4. ListView.builder ##
 
-<img width="450" height="140" alt="image" src="https://github.com/user-attachments/assets/0b605352-cf14-4416-a123-2d73c81e45fc" />
+<img width="450" height="300" alt="image" src="https://github.com/user-attachments/assets/7683e60e-ad26-4edd-8ea7-9ddc51ce5d35" />
+
 
 Menampilkan daftar data dalam bentuk scroll, dipakai untuk:
-- Menampilkan riwayat oobat
+- Menampilkan riwayat obat
 - Menampilkan list kategori
 
 ## 5. GridView ##
@@ -123,19 +124,19 @@ Menampilkan daftar data dalam bentuk scroll, dipakai untuk:
 <img width="450" height="400" alt="image" src="https://github.com/user-attachments/assets/3a384481-5efb-47db-b6d8-59d634b0af5c" />
 
 
-Menampilkan kategori obat dalam bentuk grid dua kolom agar lebih rapi dan mudah dipilih(Obat keras, Obat herbal,dll)
+Menampilkan kategori obat dalam bentuk  kotak-kotak (grid) membagi menjadi dua kolom agar lebih rapi dan mudah dipilih, seperti (Obat keras, Obat herbal,dll)
 
 ## 6. Column & Row ##
 
 <img width="450" height="424" alt="image" src="https://github.com/user-attachments/assets/ea6e04c1-df12-4477-9d92-442c2f40f875" />
 
-Row menata widget horizontal(ke samping), Column menata vertikal(ke bawah)
+Row menyusun widget horizontal(ke samping), Sedangkan Column menyusun widget secara vertikal(ke bawah)
 
 ## 7. Expanded ##
 
 <img width="450" height="144" alt="image" src="https://github.com/user-attachments/assets/5eb8a2ba-64e8-4bad-b859-1d9c54cc7e48" />
 
-Expanded digunakan untuk mengisi sisa ruang yang tersedia.
+Expanded digunakan untuk membuat widget mengisi sisa ruang yang tersedia di dalam Row atau Column.
 
 
 ## 8. Container ##
@@ -143,7 +144,7 @@ Expanded digunakan untuk mengisi sisa ruang yang tersedia.
 <img width="450" height="139" alt="image" src="https://github.com/user-attachments/assets/fa07fdea-2be1-4287-a4a0-9a26f43989cd" />
 
 
-Container di aplikasi ini  digunakan untuk membuat card obat dan box kategori menjadi aesthetic.
+Container di aplikasi ini  digunakan untuk memberi warna, memberi padding, mengatur ukuran dan yang lainnya,dalam aplikasi ini digunakan untuk membuat card obat dan box kategori menjadi aesthetic.
 
 
 ## 9. TextFormField ##
@@ -152,21 +153,20 @@ Container di aplikasi ini  digunakan untuk membuat card obat dan box kategori me
 
 
 TextFormField adalah widget untuk input data dari pengguna.
-Digunakan untuk menginput Nama obat, Dosis, Frekuensi Jam, dll
+Digunakan untuk menginput seperti Nama obat, Dosis, Frekuensi Jam, dll
 
 ## 10. ElevatedButton ##
 
 
-
 <img width="450" height="199" alt="image" src="https://github.com/user-attachments/assets/5125400b-e0cd-47d7-818c-fa6ced03344a" />
 
-ElevatedButton adalah tombol utama yang biasanya digunakan untuk aksi penting, seperti menyimpan data
+ElevatedButton adalah tombol utama yang biasanya digunakan untuk aksi seperti menyimpan data
 
 ## 11. FloatingActionButton ##
 
 <img width="450" height="282" alt="image" src="https://github.com/user-attachments/assets/35a8d733-4408-4dc5-8f34-2a5a469b3736" />
 
-
+FloatingActionButton adalah tombol  yang biasanya berada di pojok kanan bawah.
 Digunakan untuk membuka halaman tambah data obat.
 
 ## 12. IconButton ##
@@ -188,7 +188,7 @@ Bagian dari package Provider untuk mengatur dan membagikan data ke semua halaman
 <img width="450" height="262" alt="image" src="https://github.com/user-attachments/assets/efa7be36-ca33-4b39-8f0e-08de2315b0cf" />
 
 
-BoxDecoration digunakan di dalam Container untuk mengatur tampilan seperti:Warna, Border radius, Shadow dan Gradient
+BoxDecoration digunakan di dalam Container untuk mengatur tampilan seperti Warna, Border radius, Shadow dan Gradient
 
 ## 15. Navigator  ##
 
