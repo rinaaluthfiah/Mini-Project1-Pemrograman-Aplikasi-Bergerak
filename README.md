@@ -41,8 +41,7 @@ Aplikasi HealthTracker menyediakan halaman  untuk menambahkan data obat baru. Pa
 <img width="450" height="1005" alt="image" src="https://github.com/user-attachments/assets/804c07f6-1462-4e1e-8c57-09338abfe30f" />
 
 
-Semua data obat yang telah dimasukkan akan ditampilkan secara tersusun berdasarkan kategori. Setiap item menampilkan informasi lengkap seperti nama obat, dosis, frekuensi, tanggal, jam konsumsi, 
-serta status apakah obat sudah diminum atau belum.
+Semua data obat yang telah dimasukkan akan ditampilkan secara tersusun berdasarkan kategori. Setiap item menampilkan informasi lengkap seperti nama obat, dosis, frekuensi, tanggal, jam konsumsi.
 
 <img width="450" height="774" alt="image" src="https://github.com/user-attachments/assets/723ce3c7-8fa8-498a-882a-c1f23b2db2d5" />
 
