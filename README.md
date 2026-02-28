@@ -105,58 +105,104 @@ Scaffold menyediakan kerangka halaman termasuk AppBar, body, dan tombol aksi. Me
 
 ## 3. AppBar ##
 
+<img width="450" height="97" alt="image" src="https://github.com/user-attachments/assets/60135b44-d3ed-4c5a-952c-d4908f9fe739" />
 
-AppBar menampilkan judul halaman dan warna background. Di HomePage, menampilkan nama kategori obat.
-
-## 4. StatelessWidget ##
-
-
-StatelessWidget digunakan untuk widget atau halaman yang datanya tetap, tidak berubah saat dijalankan
-
-## 5. StatefulWidget ##
+AppBar  bagian atas aplikasi yang menampilkan judul halaman dan warna background. Di Homepage pada aplikasi ini menampilkan kategori
 
 
-StatefulWidget digunakan untuk halaman atau widget yang datanya bisa berubah, misal saat menambah, edit, hapus, atau status obat
+## 4. ListView.builder ##
 
-## 6. ListView.builder ##
+<img width="450" height="140" alt="image" src="https://github.com/user-attachments/assets/0b605352-cf14-4416-a123-2d73c81e45fc" />
 
+Menampilkan daftar data dalam bentuk scroll, dipakai untuk:
+- Menampilkan riwayat oobat
+- Menampilkan list kategori
 
-Untuk menampilkan daftar obat secara scroll vertika dan fleksibel
+## 5. GridView ##
 
-## 7. GridView ##
-
-
-Menampilkan kategori obat dalam bentuk grid dua kolom agar lebih rapi dan mudah dipilih.
-
-## 8. Column & Row ##
+<img width="450" height="400" alt="image" src="https://github.com/user-attachments/assets/3a384481-5efb-47db-b6d8-59d634b0af5c" />
 
 
-Row menata widget secara horizontal,  sedangkan Column menata vertikal.
+Menampilkan kategori obat dalam bentuk grid dua kolom agar lebih rapi dan mudah dipilih(Obat keras, Obat herbal,dll)
 
-## 9. Expanded ##
+## 6. Column & Row ##
 
-Row menata widget horizontal, Column menata vertical.
+<img width="450" height="424" alt="image" src="https://github.com/user-attachments/assets/ea6e04c1-df12-4477-9d92-442c2f40f875" />
 
+Row menata widget horizontal(ke samping), Column menata vertikal(ke bawah)
 
-## 10. Container, Padding, SizedBox ##
+## 7. Expanded ##
 
-## 11. TextFormField ##
+<img width="450" height="144" alt="image" src="https://github.com/user-attachments/assets/5eb8a2ba-64e8-4bad-b859-1d9c54cc7e48" />
 
-## 12. ElevatedButton ##
-
-## 13. FloatingActionButton ##
-
-## 14. Icon & IconButton ##
-
-## 15. ChangeNotifierProvider ##
+Expanded digunakan untuk mengisi sisa ruang yang tersedia.
 
 
-## 16. Box Decoration ##
+## 8. Container ##
 
-## 17. Navigator & GestureDetector##
+<img width="450" height="139" alt="image" src="https://github.com/user-attachments/assets/fa07fdea-2be1-4287-a4a0-9a26f43989cd" />
 
-## 17. LinearGradient ##
 
+Container di aplikasi ini  digunakan untuk membuat card obat dan box kategori menjadi aesthetic.
+
+
+## 9. TextFormField ##
+
+<img width="450" height="142" alt="image" src="https://github.com/user-attachments/assets/a37a53ee-45ce-4b75-b4fb-623e76261a04" />
+
+
+TextFormField adalah widget untuk input data dari pengguna.
+Digunakan untuk menginput Nama obat, Dosis, Frekuensi Jam, dll
+
+## 10. ElevatedButton ##
+
+
+
+<img width="450" height="199" alt="image" src="https://github.com/user-attachments/assets/5125400b-e0cd-47d7-818c-fa6ced03344a" />
+
+ElevatedButton adalah tombol utama yang biasanya digunakan untuk aksi penting, seperti menyimpan data
+
+## 11. FloatingActionButton ##
+
+<img width="450" height="282" alt="image" src="https://github.com/user-attachments/assets/35a8d733-4408-4dc5-8f34-2a5a469b3736" />
+
+
+Digunakan untuk membuka halaman tambah data obat.
+
+## 12. IconButton ##
+
+<img width="450" height="145" alt="image" src="https://github.com/user-attachments/assets/519a1e08-bfe8-443d-b33e-5fb7cda266e2" />
+
+
+ Digunakan untuk ikon yang bisa ditekan seperti menghapus, mengedit dan yang lainnya
+
+## 13. ChangeNotifierProvider ##
+
+<img width="450" height="122" alt="image" src="https://github.com/user-attachments/assets/88956cd3-246e-4216-a5c0-564a5505a18f" />
+
+
+Bagian dari package Provider untuk mengatur dan membagikan data ke semua halaman.
+
+## 14. Box Decoration ##
+
+<img width="450" height="262" alt="image" src="https://github.com/user-attachments/assets/efa7be36-ca33-4b39-8f0e-08de2315b0cf" />
+
+
+BoxDecoration digunakan di dalam Container untuk mengatur tampilan seperti:Warna, Border radius, Shadow dan Gradient
+
+## 15. Navigator  ##
+
+<img width="450" height="114" alt="image" src="https://github.com/user-attachments/assets/37e0875d-e451-4f86-a261-3a8affe90ddd" />
+
+Digunakan untuk berpindah halaman 
+
+
+## 16. LinearGradient ##
+
+<img width="450" height="146" alt="image" src="https://github.com/user-attachments/assets/fd6122a6-e135-4107-8ab1-45792e6bdd60" />
+
+
+Digunakan untuk memberi efek warna gradasi.
 
 
 
