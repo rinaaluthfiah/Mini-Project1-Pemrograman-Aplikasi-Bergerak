@@ -10,7 +10,7 @@
 | 2409116003 |
 Sistem Informasi A '24 |
 
-# 📱 Tampilan Aplikasi HealthTracker 
+# 📌 Tampilan Aplikasi HealthTracker 
 
 
 <img width="450" height="1014" alt="image" src="https://github.com/user-attachments/assets/3bf9c03f-b6d5-41b8-b664-6f197a9e8013" />
@@ -89,8 +89,7 @@ Pengguna bisa menandai apakah obat sudah diminum atau belum lewat tombol di seti
 HealthTracker mengelompokkan obat berdasarkan kategori seperti Obat Bebas, Obat Bebas Terbatas, Obat Keras, dan Obat Herbal, agar pengguna bisa lebih mudah mengatur dan menemukan obat sesuai jenisnya.
 
 
-
-
+# 📲 Widget Yang Digunakan
 
 
 
